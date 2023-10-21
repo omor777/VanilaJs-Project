@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter - App</title>
+    <link rel="stylesheet" href="../dist/min.output.css" />
+  </head>
+  <body class="bg-lime-50">
+    <div
+      class="app xl: container mx-auto grid grid-cols-1 items-center gap-12 px-10 py-20 xl:grid-cols-2"
+    >
+      <div class="">
+        <img src="../image/iphone.jpeg" class="max-w-full" />
+      </div>
+      <!-- content -->
+      <div class="flex flex-col gap-8">
+        <div class="title">
+          <h1 class="text-3xl font-bold uppercase tracking-[4px] text-cyan-500">
+            old iphone giveaway
+          </h1>
+          <div class="mt-2 text-xl font-bold capitalize tracking-[4px]">
+            <span>giveaway ends on</span>
+            <span>wednesday,</span>
+            <span>1</span>
+            <span>november</span>
+            <span>2023</span>
+            <span>11:30 am</span>
+          </div>
+        </div>
+        <p class="text-xl">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reprehenderit molestiae cum libero atque ut voluptate qui consectetur
+          aliquid incidunt voluptatem quos, dolore, non commodi quaerat aliquam
+          eligendi, quisquam totam blanditiis.
+        </p>
+        <!-- count down container -->
+        <div
+          id="count-down"
+          class="time-container mt-4 flex items-center gap-8"
+        >
+          <div
+            class="flex h-28 w-28 flex-col items-center justify-center bg-black text-white"
+          >
+            <h1 id="day" class="mb-2 text-5xl font-bold tracking-[4px]">10</h1>
+            <p class="font-semibold uppercase tracking-[4px]">days</p>
+          </div>
+          <div
+            class="flex h-28 w-28 flex-col items-center justify-center bg-black text-white"
+          >
+            <h1 id="hour" class="mb-2 text-5xl font-bold tracking-[4px]">11</h1>
+            <p class="font-semibold uppercase tracking-[4px]">hours</p>
+          </div>
+          <div
+            class="flex h-28 w-28 flex-col items-center justify-center bg-black text-white"
+          >
+            <h1 id="minute" class="mb-2 text-5xl font-bold tracking-[4px]">
+              02
+            </h1>
+            <p class="font-semibold uppercase tracking-[4px]">mins</p>
+          </div>
+          <div
+            class="flex h-28 w-28 flex-col items-center justify-center bg-black text-white"
+          >
+            <h1 id="second" class="mb-2 text-5xl font-bold tracking-[4px]">
+              20
+            </h1>
+            <p class="font-semibold uppercase tracking-[4px]">secs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script file -->
+    <script src="app.js"></script>
+  </body>
+</html>
